@@ -1,0 +1,132 @@
+@import url(smallscreenhomepage.css);
+@import url(mediumscreenhomepage.css);
+@import url(largescreenhomepage.css);
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#container{
+    min-width:100vw;
+    height:100vh;
+}
+
+
+
+/* ________________________meduim screen _________________________________ */
+
+@media only screen and (min-width:601px) and (max-width:900px){
+
+    #head{
+        width:110vw;
+        height:20vh;
+      background-color:rgb(29, 29, 126);
+        display: flex;
+        flex-direction: row;
+    }
+
+#sect__hd_01{
+flex:1;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#logo{
+    width:60px;
+    height:60px;
+    border-radius: 50px;
+}
+
+#sect__hd_02{
+flex:4;
+padding:0px 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#nav__bar a{
+    text-decoration: none;
+    color:white;
+    font-weight: 200;
+
+}
+#nav__bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.a_nav{
+    width: calc(88vw/3*1);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white ;
+    border-radius: 3px;
+    box-shadow:0px 0px 3px rgba(186, 186, 206, 0.456);
+    font-size: 1.5em;
+}
+/* _________________________________main________________________________ */
+#main{
+    width: 100%;
+    min-height:90vh;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(219 227 234);
+   
+}
+.background{
+    position:absolute;
+    top:0.5px;
+    left:0px;
+    min-width:110vw;
+    min-height: 110vh;
+    background-image: url(360_F_557647884_NvFA7XktHqAvoH8H9gGdLhVFVXgG9hDa.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    z-index:-1;
+
+}
+.sect__mn{
+    text-shadow:2px 2px 2px rgb(1 3 27);
+
+}
+#sect__mn_01{
+flex:4;
+}
+
+#sect__mn_02{
+/* empty */
+flex:1;
+}
+#sect__mn_01 h2{
+    font-size: 1.6em;
+}
+#sect__mn_01 h2 span{
+    font-size: 1.9em;
+}
+#sect__mn_01 h3{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+}/*media only screen bracket*/

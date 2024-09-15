@@ -1,0 +1,195 @@
+@import url(smallscreenaboutpage.css);
+@import url(mediumscreenaboutpage.css);
+@import url(largescreenaboutpage.css);
+@import url(styleabout.css);
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#container{
+    min-width:100vw;
+    min-height:100vh;
+    /* background-color: beige; */
+}
+
+
+
+
+/* _____________________________medium screen_____________________________________________ */
+
+@media only screen and  (min-width:1200px){
+    #head{
+        width:100vw;
+        height:20vh;
+      background-color:rgb(29, 29, 126);
+        display: flex;
+        flex-direction:row;
+    }
+
+#sect__hd_01{
+flex:1;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#logo{
+    width:90px;
+    height:90px;
+    border-radius: 50px;
+}
+
+#sect__hd_02{
+flex:4;
+display: flex;
+justify-content: center;
+align-items: center;
+padding:0px 15px;
+}
+#nav__bar a{
+    text-decoration: none;
+    color:white;
+    font-weight: 200;
+    font-size:1.5em;
+    
+}
+#nav__bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.a_nav{
+    width: calc(84vw/3*1);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white ;
+    border-radius: 3px;
+    box-shadow:0px 0px 3px rgba(186, 186, 206, 0.456);
+}
+/* _________________________________main________________________________ */
+#main{
+    width: 100vw;
+    min-height:80vh;
+    padding: 60px 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+    color: rgb(219 227 234);
+   
+}
+/* .background{
+    position:absolute;
+    top:0.5px;
+    left:0;
+    width:100%;
+    min-height: 120vh;
+    background-image: url(360_F_557647884_NvFA7XktHqAvoH8H9gGdLhVFVXgG9hDa.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    z-index:-1;
+
+} */
+.sect__mn{
+  
+    border: 9px solid rgb(3, 3, 70);
+    border-radius: 10px;
+    width:100vw ;
+    height: 80vh;
+} 
+#sect__mn_01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex:1;
+background-color: rgb(29, 29, 126);
+
+}
+#myphoto{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    border: 6px solid rgb(113, 134, 207);
+    box-shadow: 0px 2px 1px rgba(255, 255, 255, 0.447);
+}
+
+#sect__mn_02{
+flex:2;
+display:flex;
+flex-direction:column;
+/* justify-content: center;
+align-items: center; */
+padding: 60px;
+font-size:1.3em;
+font-weight: 600;
+
+}
+a{
+    color:rgb(29, 29, 126);
+}
+
+#info{
+flex:4;
+list-style-position: inside;
+color: rgb(29, 29, 126);
+}
+#li__skills{
+    display: flex;
+    justify-content:space-between ;
+    margin:30px 0px;
+}
+.li__items
+{
+    flex:1;
+    
+}
+#proj__li{
+    display: flex;
+    justify-content: space-around;
+    margin:30px 0px ;
+}
+.projects{
+    flex:1;
+    list-style-type:square;
+    list-style-position: inside;
+}
+ a{
+    text-decoration: none;
+}
+#icons_article{
+flex:1;
+display:flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+margin-top:20px;
+}
+.icons{
+    padding:0px 100px;
+    font-size: 2.3em;
+    color: rgb(29, 29, 126);
+
+}
+#icon01{
+  flex:1;  
+  
+}
+#icon02{
+    flex:1;
+}
+#icon03{
+    flex:1;
+}
+
+}/*media only screen bracket*/
