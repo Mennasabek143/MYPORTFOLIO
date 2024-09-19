@@ -55,7 +55,6 @@ padding:0px 15px;
 }
 #nav__bar a{
     text-decoration: none;
-    color:white;
     font-weight: 200;
     font-size:1.5em ;
 
@@ -71,6 +70,7 @@ padding:0px 15px;
     
 }
 .a_nav{
+    color: white;
     width: calc(104vw/3*1);
     padding: 5px;
     display: flex;
@@ -78,6 +78,19 @@ padding:0px 15px;
     border: 1px solid white ;
     border-radius: 3px;
     box-shadow:0px 0px 3px rgba(186, 186, 206, 0.456);
+}
+.darkmode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:5px;
+}
+#darkmode{
+    color:rgb(29, 29, 126) ;
+    background-color: rgb(169, 169, 199);
+    border-radius: 50px;
+    width:12vw;
+    height:8vh;
 }
 /* _________________________________main________________________________ */
 #main{
@@ -152,6 +165,9 @@ color: rgb(29, 29, 126);
  a{
     text-decoration: none;
 }
+.projects p{
+    font-size: 0.7em;
+}
 #icons_article{
 flex:2;
 display:flex;
@@ -161,6 +177,7 @@ align-items: center;
 }
 .icons{
     padding-right: 30px;
+    margin:0px 30px;
     font-size: 1.9em;
     color: rgb(29, 29, 126);
 

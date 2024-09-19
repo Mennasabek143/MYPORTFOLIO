@@ -49,7 +49,6 @@ align-items: center;
 }
 #nav__bar a{
     text-decoration: none;
-    color:white;
     font-weight: 200;
 
 }
@@ -64,6 +63,7 @@ align-items: center;
     
 }
 .a_nav{
+    color: white;
     width: calc(88vw/3*1);
     padding: 5px;
     display: flex;
@@ -115,6 +115,17 @@ flex:1;
 /* empty */
 flex:1;
 }
+/* ____________more info__________ */
+.moreinfo{
+    width:150px;
+    height:70px;
+    border-radius: 40px;
+    color:rgb(29, 29, 126) ;
+    font-size: 0.9em;
+    margin-left:60px ;
+}
+
+
 .card{
     display:flex;
     justify-content: center;

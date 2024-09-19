@@ -56,11 +56,11 @@ align-items: center;
 }
 #nav__bar a{
     text-decoration: none;
-    color:white;
     font-weight: 200;
 
 }
 #nav__bar{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -71,6 +71,7 @@ align-items: center;
     
 }
 .a_nav{
+    color: white;
     width: calc(100vw/3*1);
     padding: 5px;
     display: flex;
@@ -80,6 +81,7 @@ align-items: center;
     box-shadow:0px 0px 3px rgba(186, 186, 206, 0.456);
     font-size: 1em;
 }
+
 /* _________________________________main________________________________ */
 #main{
     width: 100%;
@@ -121,6 +123,14 @@ flex:1;
 #sect__mn_02{
 /* empty */
 flex:1;
+}
+.moreinfo{
+    width:120px;
+    height:40px;
+    border-radius: 40px;
+    color:rgb(29, 29, 126) ;
+    font-size: 0.6em;
+    margin-left:5px ;
 }
 .card{
     display:flex;

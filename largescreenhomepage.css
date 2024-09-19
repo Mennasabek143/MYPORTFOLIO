@@ -51,7 +51,6 @@ align-items: center;
 }
 #nav__bar a{
     text-decoration: none;
-    color:white;
     font-weight: 250;
     font-size: 2.5em;
 
@@ -67,6 +66,7 @@ align-items: center;
     
 }
 .a_nav{
+    color: white;
     width: calc(140vw/3*1);
     padding: 5px;
     display: flex;
@@ -75,6 +75,7 @@ align-items: center;
     border-radius: 3px;
     box-shadow:0px 0px 3px rgba(186, 186, 206, 0.456);
 }
+
 /* _________________________________main________________________________ */
 #main{
     width: 210vw;
