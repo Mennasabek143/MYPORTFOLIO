@@ -147,7 +147,10 @@ background-color: rgb(29, 29, 126);
     border: 6px solid rgb(113, 134, 207);
     box-shadow: 0px 2px 1px rgba(255, 255, 255, 0.447);
 }
-
+#myphoto:hover{
+    width:300px;
+    height:300px;
+}
 #sect__mn_02{
 flex:2;
 display:flex;
@@ -204,6 +207,9 @@ margin-top:20px;
     font-size: 2.3em;
     color: rgb(29, 29, 126);
 
+}
+.icons:hover{
+  font-size:3em ;
 }
 #icon01{
   flex:1;  

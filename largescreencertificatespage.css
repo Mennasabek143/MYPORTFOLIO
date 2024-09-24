@@ -112,7 +112,6 @@ flex:1;
 }
 
 #sect__mn_02{
-/* empty */
 flex:1;
 }
 /* ____________more info__________ */
@@ -124,7 +123,25 @@ flex:1;
     font-size: 0.9em;
     margin-left:60px ;
 }
+.infomsg{
+    font-size: 1.5em;
+    margin-top:150px;
+    list-style: inside;
+    display: none;
 
+}
+.cardin{
+    width:600px;
+    height:600px;
+    display: flex;
+    
+    
+}
+.cer_photoin{
+    width:800px;
+    height: 380px;
+    margin:180px 100px 0px 100px;
+}
 
 .card{
     display:flex;

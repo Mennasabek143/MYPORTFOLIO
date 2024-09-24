@@ -93,7 +93,8 @@ align-items: center;
     top:0.5px;
     left:0;
     width:100vw;
-    height: 210vh;
+    /* height: 210vh; */
+    height: 370vh;
     background-image: url(360_F_557647884_NvFA7XktHqAvoH8H9gGdLhVFVXgG9hDa.jpg);
     background-size: cover;
     background-position: center;
@@ -117,7 +118,6 @@ flex:1;
 }
 
 #sect__mn_02{
-/* empty */
 flex:1;
 }
 /* __________more info_________ */
@@ -130,10 +130,30 @@ flex:1;
     margin-bottom:15px ;
 }
 
+.infomsg{
+    font-size: 1.5em;
+    margin-top:150px;
+    list-style: inside;
+    display: none;
+
+}
+.cardin{
+    width:600px;
+    height:600px;
+    display: flex;
+    
+    
+}
+.cer_photoin{
+    width:800px;
+    height: 380px;
+    margin:180px 100px 0px 100px;
+}
+
+/* ________________ */
 .card{
     display:flex;
     justify-content: center;
-    
     
 }
 .cer_photo{
